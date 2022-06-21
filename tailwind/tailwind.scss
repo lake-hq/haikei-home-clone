@@ -2,7 +2,7 @@
 @tailwind utilities;
 @tailwind components;
 
-$bg : #0c0d0f;
+$bg: #0c0d0f;
 
 $border-color: #80808025;
 
@@ -45,10 +45,13 @@ p {
 }
 
 .col {
-  @apply flex flex-col py-10;
+  @apply flex flex-col;
+}
+
+.row {
+  @apply flex flex-row;
 }
 
 .bottom-line {
-  @apply pb-10;
   border-bottom: 1px solid $border-color;
 }

@@ -1,14 +1,17 @@
 import React from "react";
 
+import Button from "./Button";
+
 const ButtonDark = (props: any) => {
   return (
     <a
       href={props.link}
-      className={`transition-colors duration-300 bg-primaryPurple hover:bg-primaryPurpleDarker w-48 mx-8 py-4 text-center hover:cursor-pointer rounded-full ${props.classes}`}
+      className={`btn bg-dark2 hover:bg-dark3 ${props.classes}`}
     >
       <h6 className={`text-white font-bold ${props.textClasses}`}>
         {props.text}
       </h6>
+      {props.content}
     </a>
   );
 };

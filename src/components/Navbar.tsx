@@ -1,7 +1,9 @@
 import React from "react";
 
 import logo from "../logo.png";
+import twitter from "../twitter.png";
 import Button from "./Button";
+import ButtonDark from "./Button-dark";
 
 const Navbar = () => {
   return (
@@ -18,6 +20,7 @@ const Navbar = () => {
           <a href="">
             <h6>Blog</h6>
           </a>
+          <ButtonDark text="Share" content={<img src={twitter} />} />
           <Button text="Try it for free" />
         </div>
       </nav>

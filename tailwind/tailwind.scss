@@ -75,3 +75,7 @@ a {
     @apply px-4;
   }
 }
+
+.btn {
+  @apply transition-colors duration-300 w-48 mx-8 py-4 text-center hover:cursor-pointer rounded-full;
+}

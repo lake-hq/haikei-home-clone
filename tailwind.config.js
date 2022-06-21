@@ -21,6 +21,8 @@ module.exports = {
         dark: '#0c0d0f',
         primaryPurple: '#8b7af4',
         primaryPurpleDarker: '#6147c6',
+        dark2: '#191b1f',
+        dark3: '#22252a',
       }
     }
   },

@@ -58,6 +58,13 @@ a {
   }
 }
 
+article {
+  @apply pt-40;
+  p {
+    @apply text-gray-300;
+  }
+}
+
 .col {
   @apply flex flex-col;
 }
@@ -77,5 +84,9 @@ a {
 }
 
 .btn {
-  @apply transition-colors duration-300 w-48 mx-8 py-4 text-center hover:cursor-pointer rounded-full;
+  @apply transition-colors duration-300 w-48 mx-2 py-4 text-center hover:cursor-pointer rounded-full row justify-center items-center;
+
+  img {
+    @apply w-6 ml-4;
+  }
 }

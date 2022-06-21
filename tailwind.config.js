@@ -10,15 +10,17 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        mdlg : '1280px',
-        xlg : '1600px',        
+        mdlg: '1280px',
+        xlg: '1600px',
       },
       colors: {
-        lightblue : '#059dff',
-        indigo : '#6549d5',
-        pink : '#e33fa1',
-        orange : '#fb5343',
+        lightblue: '#059dff',
+        indigo: '#6549d5',
+        pink: '#e33fa1',
+        orange: '#fb5343',
         dark: '#0c0d0f',
+        primaryPurple: '#8b7af4',
+        primaryPurpleDarker: '#6147c6',
       }
     }
   },

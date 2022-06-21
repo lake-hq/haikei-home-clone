@@ -11,7 +11,7 @@ const Navbar = () => {
       <nav className="py-2 pt-8 px-60 row justify-between items-center">
         <img src={logo} className="fill-white hover:cursor-pointer" />
         <div className="row btn-holder items-center">
-          <a href="">
+          <a href="https://haikei.app/generators/">
             <h6>Generators</h6>
           </a>
           <a href="">

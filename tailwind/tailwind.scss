@@ -44,7 +44,7 @@ h5 {
 }
 
 p {
-  @apply text-xl text-white pt-12;
+  @apply text-xl text-gray-300 font-extrabold py-8;
 }
 
 a {
@@ -59,7 +59,7 @@ a {
 }
 
 article {
-  @apply pt-40;
+  @apply py-20 px-96 mx-32;
   p {
     @apply text-gray-300;
   }
@@ -84,7 +84,16 @@ article {
 }
 
 .btn {
-  @apply transition-colors duration-300 w-48 mx-2 py-4 text-center hover:cursor-pointer rounded-full row justify-center items-center;
+  @apply transition-colors duration-300 mx-2 py-4 text-center hover:cursor-pointer rounded-full row justify-center items-center;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply px-4;
+  }
 
   img {
     @apply w-6 ml-4;

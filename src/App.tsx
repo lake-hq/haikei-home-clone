@@ -1,17 +1,19 @@
-import { useState } from 'react'
+import {useState} from "react";
 
-import Navbar from './components/Navbar'
-import HomePage from './components/HomePage'
+//inspiration: https://haikei.app/
+
+import Navbar from "./components/Navbar";
+import HomePage from "./components/HomePage";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <Navbar />  
+      <Navbar />
       <HomePage />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

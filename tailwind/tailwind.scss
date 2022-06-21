@@ -2,12 +2,15 @@
 @tailwind utilities;
 @tailwind components;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap");
+
 $bg: #0c0d0f;
 
 $border-color: #80808025;
 
 html {
   @apply text-xs md:text-sm lg:text-base font-sans;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -44,6 +47,17 @@ p {
   @apply text-xl text-white pt-12;
 }
 
+a {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-gray-300 font-semibold;
+  }
+}
+
 .col {
   @apply flex flex-col;
 }
@@ -54,4 +68,10 @@ p {
 
 .bottom-line {
   border-bottom: 1px solid $border-color;
+}
+
+.btn-holder {
+  a {
+    @apply px-4;
+  }
 }

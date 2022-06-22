@@ -7,20 +7,22 @@ import ButtonDark from "./Button-dark";
 
 const Navbar = () => {
   return (
-    <div className="navHolder px-8">
-      <nav className="py-2 pt-8 px-60 row justify-between items-center">
+    <div className="navHolder px-8 overflow-x-hidden">
+      <nav>
         <img src={logo} className="fill-white hover:cursor-pointer" />
-        <div className="row btn-holder items-center">
-          <a href="https://haikei.app/generators/">
-            <h6>Generators</h6>
-          </a>
-          <a href="">
-            <h6>Pricing</h6>
-          </a>
-          <a href="">
-            <h6>Blog</h6>
-          </a>
-          <ButtonDark text="Share" content={<img src={twitter} />} />
+        <div className="row">
+          <div className="btn-holder items-center hidden lg:flex flex-row">
+            <a href="https://haikei.app/generators/">
+              <h6>Generators</h6>
+            </a>
+            <a href="">
+              <h6>Pricing</h6>
+            </a>
+            <a href="">
+              <h6>Blog</h6>
+            </a>
+            <ButtonDark text="Share" content={<img src={twitter} />} />
+          </div>
           <Button text="Try it for free" />
         </div>
       </nav>

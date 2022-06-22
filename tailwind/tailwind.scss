@@ -9,13 +9,13 @@ $bg: #0c0d0f;
 $border-color: #80808025;
 
 html {
-  @apply text-xs md:text-sm lg:text-base font-sans;
+  @apply text-xs md:text-sm lg:text-base font-sans overflow-x-hidden;
   font-family: "Montserrat", sans-serif;
 }
 
 body {
   overflow-x: hidden;
-  @apply flex flex-col items-center justify-center bg-dark;
+  @apply col justify-center items-center justify-center bg-dark;
 }
 
 .primary-bold {
@@ -58,8 +58,16 @@ a {
   }
 }
 
+nav {
+  @apply py-2 pt-8 px-12 lg:px-48 mdlg:px-60 row w-screen justify-between items-center;
+}
+
+section {
+  @apply col items-center;
+}
+
 article {
-  @apply py-20 px-96 mx-32;
+  @apply py-20 px-48 px-60 mdlg:mx-32 col items-center;
   p {
     @apply text-gray-300;
   }

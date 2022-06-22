@@ -1,7 +1,7 @@
 import React from "react";
 
-import logo from "../logo.png";
-import twitter from "../twitter.png";
+import logo from "../images/logo.png";
+import twitter from "../images/twitter.png";
 import Button from "./Button";
 import ButtonDark from "./Button-dark";
 

@@ -8,7 +8,7 @@ const ButtonDark = (props: any) => {
       href={props.link}
       className={`btn bg-dark2 hover:bg-dark3 ${props.classes}`}
     >
-      <h6 className={`text-white font-bold ${props.textClasses}`}>
+      <h6 className={`text-gray-300 font-bold ${props.textClasses}`}>
         {props.text}
       </h6>
       {props.content}

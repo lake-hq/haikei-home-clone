@@ -42,4 +42,16 @@ const HomePage = () => {
   );
 };
 
+const Card = (props: any) => {
+  return (
+    <div>
+      <img src={props.src} />
+      <div className="text-left col items-start">
+        <h3>{props.heading}</h3>
+        <p>{props.text}</p>
+      </div>
+    </div>
+  );
+};
+
 export default HomePage;

@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App col items-center">
+    <div className="App col w-screen justify-center items-center">
       <Navbar />
       <HomePage />
     </div>

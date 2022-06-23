@@ -14,8 +14,7 @@ html {
 }
 
 body {
-  overflow-x: hidden;
-  @apply col justify-center items-center justify-center bg-dark;
+  @apply col justify-center items-center bg-dark overflow-x-hidden;
 }
 
 .primary-bold {
@@ -63,11 +62,11 @@ nav {
 }
 
 section {
-  @apply col items-center;
+  @apply col items-center w-4/6;
 }
 
 article {
-  @apply py-20 px-48 px-60 mdlg:mx-32 col items-center;
+  @apply py-20 col items-center;
   p {
     @apply text-gray-300;
   }

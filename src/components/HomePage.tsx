@@ -5,7 +5,7 @@ import die from "../images/die.png";
 
 const HomePage = () => {
   return (
-    <div className="w-screen flex col text-center">
+    <div className="w-screen flex col items-center text-center">
       <section className="hero">
         <article className="col items-center pt-40">
           <h1>Generate unique SVG design assets</h1>
@@ -19,9 +19,9 @@ const HomePage = () => {
             content={<img className="w-56" src={die} />}
           />
           <p className="font-normal">Free, no signups, no credit cards.</p>
-          <div className="w-screen col items-center rounded-full">
+          <div className="col items-center rounded-full">
             <video
-              className="w-full rounded-xl"
+              className="rounded-xl w-full"
               src="/src/images/intro-video.mp4"
               autoPlay
               loop
@@ -30,7 +30,7 @@ const HomePage = () => {
           </div>
         </article>
       </section>
-      <section className="col items-start w-full">
+      <section className="col items-start">
         <h1 className="text-left">
           Discover + create unlimited <br /> visuals for your designs
         </h1>

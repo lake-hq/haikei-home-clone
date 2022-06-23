@@ -582,6 +582,16 @@ video {
   width: 100%;
 }
 
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -806,6 +816,7 @@ section {
 }
 
 article {
+  width: 100%;
   align-items: center;
   padding-top: 5rem;
   padding-bottom: 5rem;

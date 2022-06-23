@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className="w-screen flex col items-center text-center">
       <section className="hero">
-        <article className="col items-center w-4/6">
+        <article className="col items-center sm:w-11/2 lg:w-11/12 mdlg:w-4/6">
           <h1>Generate unique SVG design assets</h1>
           <p className="">
             Haikei is a web app to generate unique SVG shapes, backgrounds, and
@@ -22,7 +22,7 @@ const HomePage = () => {
         </article>
         <div className="col items-center rounded-full">
           <video
-            className="rounded-xl mb-40 w-full"
+            className="rounded-xl w-full"
             src="/src/images/intro-video.mp4"
             autoPlay
             loop
@@ -31,10 +31,10 @@ const HomePage = () => {
         </div>
       </section>
       <section className="col items-start">
-        <h2 className="text-left">
-          Discover + create unlimited <br /> visuals for your designs
-        </h2>
-        <article className="col w-full items-start">
+        <article className="col items-start">
+          <h2 className="text-left">
+            Discover + create unlimited <br /> visuals for your designs
+          </h2>
           <div></div>
         </article>
       </section>

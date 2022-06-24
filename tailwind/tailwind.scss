@@ -43,7 +43,7 @@ h5 {
 }
 
 p {
-  @apply text-xl text-gray-300 font-extrabold py-8;
+  @apply text-xl text-textdarker font-extrabold py-8;
 }
 
 a {
@@ -53,7 +53,7 @@ a {
   h4,
   h5,
   h6 {
-    @apply text-gray-300 font-semibold;
+    @apply text-textdarker font-semibold;
   }
 }
 

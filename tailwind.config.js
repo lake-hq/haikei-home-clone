@@ -23,6 +23,9 @@ module.exports = {
         primaryPurpleDarker: '#6147c6',
         dark2: '#191b1f',
         dark3: '#22252a',
+        dark4: '#121417',
+        textdarker: '#787d87',
+        textlight: '#e1e3e5',
       }
     }
   },

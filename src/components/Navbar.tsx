@@ -23,7 +23,7 @@ const Navbar = () => {
             </a>
             <ButtonDark text="Share" content={<img src={twitter} />} />
           </div>
-          <Button text="Try it for free" />
+          <Button classes="" text="Try it for free" />
         </div>
       </nav>
     </div>

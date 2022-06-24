@@ -9,7 +9,7 @@ $bg: #0c0d0f;
 $border-color: #80808025;
 
 html {
-  @apply text-xs md:text-sm lg:text-base font-sans overflow-x-hidden;
+  @apply text-sm lg:text-base font-sans overflow-x-hidden;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -22,12 +22,15 @@ body {
 }
 
 h1 {
-  @apply text-6xl primary-bold;
+  @apply primary-bold;
+  font-size: 3rem;
   line-height: 1.2;
 }
 
 h2 {
-  @apply text-5xl primary-bold;
+  @apply primary-bold;
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
 
 h3 {

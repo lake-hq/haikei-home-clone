@@ -715,6 +715,12 @@ $bg: #0c0d0f;
 
 $border-color: #80808025;
 
+@font-face {
+  font-family: Galano, sans-serif;
+
+  src: url("/fonts/Commercial/OTF/GalanoGrotesqueDEMO-Bold.otf");
+}
+
 html {
   overflow-x: hidden;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -730,7 +736,7 @@ html {
 }
 
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Galano", sans-serif;
 }
 
 body {

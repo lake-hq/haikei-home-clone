@@ -8,9 +8,14 @@ $bg: #0c0d0f;
 
 $border-color: #80808025;
 
+@font-face {
+  font-family: Galano, sans-serif;
+  src: url("/fonts/Commercial/OTF/GalanoGrotesqueDEMO-Bold.otf");
+}
+
 html {
   @apply text-sm lg:text-base font-sans overflow-x-hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Galano", sans-serif;
 }
 
 body {

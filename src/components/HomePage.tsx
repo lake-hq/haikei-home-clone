@@ -23,7 +23,9 @@ const HomePage = () => {
             classes="w-80 flex-row-reverse"
             content={<img className="w-56" src={die} />}
           />
-          <p className="font-normal">Free, no signups, no credit cards.</p>
+          <p className="font-normal text-textdarker">
+            Free, no signups, no credit cards.
+          </p>
         </article>
         <div className="col items-center rounded-full">
           <video
@@ -88,7 +90,7 @@ const Card = (props: any) => {
       <img src={props.imgSrc} className="bg-dark4 p-4 rounded-2xl mb-8" />
       <div className="text-left col items-start">
         <h4>{props.heading}</h4>
-        <p className="text-textdarker font-semibold md:pr-20">{props.text}</p>
+        <p className="text-textdarker font-normal  md:pr-20">{props.text}</p>
       </div>
     </div>
   );

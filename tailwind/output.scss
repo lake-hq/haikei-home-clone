@@ -692,10 +692,6 @@ video {
   font-weight: 400;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -716,7 +712,7 @@ $bg: #0c0d0f;
 $border-color: #80808025;
 
 @font-face {
-  font-family: Galano, sans-serif;
+  font-family: Galano;
 
   src: url("/fonts/Commercial/OTF/GalanoGrotesqueDEMO-Bold.otf");
 }
@@ -736,7 +732,7 @@ html {
 }
 
 html {
-  font-family: "Galano", sans-serif;
+  font-family: "Galano";
 }
 
 body {

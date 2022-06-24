@@ -40,14 +40,36 @@ const HomePage = () => {
           <h2 className="text-left">
             Discover + create unlimited <br /> visuals for your designs
           </h2>
-          <div className="py-20">
-            <Card
-              imgSrc={icon1}
-              heading="Growing number of generators"
-              text="Get started with one of our flexible SVG generators that will help you create unique data-driven shapes without hassle. Choose between stacked or layered waves, steps, peaks, blobs, symbols, grids, gradients, and much more."
-            />
+          <div className="py-20 col">
+            <div className="resprow">
+              <Card
+                imgSrc={icon1}
+                heading="Growing number of generators"
+                text="Get started with one of our flexible SVG generators that will help you create unique data-driven shapes without hassle. Choose between stacked or layered waves, steps, peaks, blobs, symbols, grids, gradients, and much more."
+              />
+              <Card
+                imgSrc={icon2}
+                heading="Easy to integrate into your workflow"
+                text="Whether you are creating a poster or a website, integrating Haikei into your workflow is easy! Export your background as PNG, SVG and continue working on it in any vector editing tool, CMS or code base."
+              />
+            </div>
+            <div className="resprow">
+              <Card
+                imgSrc={icon3}
+                heading="Customizable visuals"
+                text="Our generators will help you create unique visuals that look good every time. Play with the settings to find the right parameters and use the dice button to generate a new visual every time."
+              />
+              <Card
+                imgSrc={icon4}
+                heading="Designs ready for production"
+                text="Choose from a number of common canvas sizes to help you generate cool backgrounds, ready to share. You can also tweak the size and compare different generators across formats. Haikei will adapt to your needs."
+              />
+            </div>
           </div>
         </article>
+      </section>
+      <section>
+        <h2>Use cases</h2>
       </section>
     </div>
   );
@@ -55,11 +77,11 @@ const HomePage = () => {
 
 const Card = (props: any) => {
   return (
-    <div className="w-1/2">
-      <img src={props.imgSrc} className="bg-dark4 p-4 rounded-xl mb-8" />
+    <div className="lg:w-1/2 py-4">
+      <img src={props.imgSrc} className="bg-dark4 p-4 rounded-2xl mb-8" />
       <div className="text-left col items-start">
         <h4>{props.heading}</h4>
-        <p className="text-textdarker font-normal">{props.text}</p>
+        <p className="text-textdarker font-semibold md:pr-20">{props.text}</p>
       </div>
     </div>
   );

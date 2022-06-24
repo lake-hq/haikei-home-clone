@@ -106,3 +106,7 @@ article {
     @apply w-6 ml-4;
   }
 }
+
+.resprow {
+  @apply flex flex-col items-center justify-center md:flex-row;
+}

@@ -110,3 +110,7 @@ article {
 .resprow {
   @apply flex flex-col items-center justify-center md:flex-row;
 }
+
+.smallsec {
+  @apply sm:w-11/12 lg:w-11/12 mdlg:w-3/6;
+}

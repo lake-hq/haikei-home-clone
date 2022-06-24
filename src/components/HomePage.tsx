@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <div className="w-screen flex col items-center text-center">
       <section className="hero">
-        <article className="col items-center sm:w-11/2 lg:w-11/12 mdlg:w-4/6">
+        <article className="col items-center smallsec">
           <h1>Generate unique SVG design assets</h1>
           <p className="text-textlighter">
             Haikei is a web app to generate unique SVG shapes, backgrounds, and
@@ -36,7 +36,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="col items-start mt-20">
-        <article className="col items-start">
+        <article className="col items-start mb-0 pb-0">
           <h2 className="text-left">
             Discover + create unlimited <br /> visuals for your designs
           </h2>
@@ -68,8 +68,15 @@ const HomePage = () => {
           </div>
         </article>
       </section>
-      <section>
-        <h2>Use cases</h2>
+      <section className="pt-0">
+        <article className="smallsec">
+          <h2>Use cases</h2>
+          <p>
+            Haikei is primarily a creative tool that you can use in many
+            different ways. Here are some examples of where Haikei can change
+            the way you work.
+          </p>
+        </article>
       </section>
     </div>
   );

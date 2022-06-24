@@ -43,7 +43,7 @@ const HomePage = () => {
             Discover + create unlimited <br /> visuals for your designs
           </h2>
           <div className="py-20 col">
-            <div className="resprow">
+            <div className="resprow items-center">
               <Card
                 imgSrc={icon1}
                 heading="Growing number of generators"
@@ -88,9 +88,9 @@ const Card = (props: any) => {
   return (
     <div className="lg:w-1/2 py-4">
       <img src={props.imgSrc} className="bg-dark4 p-4 rounded-2xl mb-8" />
-      <div className="text-left col items-start">
+      <div className="text-left col items-start md:pr-20">
         <h4>{props.heading}</h4>
-        <p className="text-textdarker font-normal  md:pr-20">{props.text}</p>
+        <p className="text-textdarker font-normal">{props.text}</p>
       </div>
     </div>
   );

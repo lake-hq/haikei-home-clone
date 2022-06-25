@@ -86,7 +86,7 @@ const HomePage = () => {
 
 const Card = (props: any) => {
   return (
-    <div className="lg:w-1/2 py-4">
+    <div className="md:w-1/2 py-4 px-4">
       <img src={props.imgSrc} className="bg-dark4 p-4 rounded-2xl mb-8" />
       <div className="text-left col items-start md:pr-20">
         <h4>{props.heading}</h4>

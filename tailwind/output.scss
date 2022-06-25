@@ -668,6 +668,11 @@ video {
   padding-right: 2rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -978,7 +983,17 @@ article {
   background-color: rgb(97 71 198 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+}
+
 @media (min-width: 768px) {
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:pr-20 {
     padding-right: 5rem;
   }

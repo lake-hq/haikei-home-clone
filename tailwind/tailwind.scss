@@ -14,7 +14,7 @@ $border-color: #80808025;
 }
 
 html {
-  @apply text-sm lg:text-base font-sans overflow-x-hidden;
+  @apply text-sm lg:text-xl font-sans overflow-x-hidden;
   font-family: "Galano";
 }
 
@@ -39,19 +39,20 @@ h2 {
 }
 
 h3 {
-  @apply text-4xl primary-bold;
-}
-
-h4 {
   @apply text-3xl primary-bold;
 }
 
-h5 {
+h4 {
   @apply text-2xl primary-bold;
 }
 
+h5 {
+  @apply text-xl primary-bold;
+}
+
 p {
-  @apply text-xl text-textdarker font-extrabold py-8;
+  @apply text-base text-textdarker py-8;
+  font-weight: normal;
 }
 
 a {

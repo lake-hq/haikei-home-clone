@@ -1,8 +1,9 @@
 import React from "react";
 
 import Button from "./Button";
-import die from "../images/die.png";
+import Tabs from "./Tabs";
 
+import die from "../images/die.png";
 import icon1 from "../images/icon-1.svg";
 import icon2 from "../images/icon-2.svg";
 import icon3 from "../images/icon-3.svg";
@@ -71,7 +72,7 @@ const HomePage = () => {
         </article>
       </section>
       <section className="pt-0">
-        <article className="smallsec">
+        <article className="smallsec pb-4">
           <h2>Use cases</h2>
           <p>
             Haikei is primarily a creative tool that you can use in many
@@ -79,6 +80,7 @@ const HomePage = () => {
             the way you work.
           </p>
         </article>
+        <Tabs />
       </section>
     </div>
   );

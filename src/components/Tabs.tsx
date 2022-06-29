@@ -2,8 +2,8 @@ import React from "react";
 
 const Tabs = (props: any) => {
   return (
-    <div className="lg:flex hidden">
-      <div className="w-1/2">
+    <div className="lg:flex hidden justify-between">
+      <div className="w-1/2 px-8">
         <h3>Haikei for UI Design</h3>
         <p className="text-left text-textlight">
           Whether you are designing login screens, banner backgrounds, product
@@ -13,7 +13,10 @@ const Tabs = (props: any) => {
         </p>
       </div>
       <div className="w-1/2">
-        <img src="https://haikei.app/use-case-ui-design.svg" />
+        <img
+          src="https://haikei.app/use-case-ui-design.svg"
+          className="w-3/4"
+        />
       </div>
     </div>
   );

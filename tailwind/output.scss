@@ -578,6 +578,10 @@ video {
   display: none;
 }
 
+.h-1\/3 {
+  height: 33.333333%;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -592,6 +596,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .flex-row {
@@ -714,6 +722,11 @@ video {
 .text-textdarker {
   --tw-text-opacity: 1;
   color: rgb(120 125 135 / var(--tw-text-opacity));
+}
+
+.text-textlight {
+  --tw-text-opacity: 1;
+  color: rgb(225 227 229 / var(--tw-text-opacity));
 }
 
 $bg: #0c0d0f;
@@ -1004,9 +1017,5 @@ article {
 
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 }

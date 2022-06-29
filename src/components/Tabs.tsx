@@ -11,6 +11,11 @@ const Tabs = (props: any) => {
           Haikei has you covered. Select one of our generators, choose your
           canvas size and add your brand colors to make the visuals yours.
         </p>
+        <p className="text-sm py-0">
+          You can start with <a className="underline">Blob scene</a>,{" "}
+          <a className="underline">Low poly grid</a>, or{" "}
+          <a className="underline">Layered waves</a>
+        </p>
       </div>
       <div className="w-1/2">
         <img

@@ -2,13 +2,18 @@ import React from "react";
 
 const Tabs = (props: any) => {
   return (
+    <div className="btn-tab-holder">
+      <button>Haikei for UI Design</button>
+      <button>Haikei for slide decks</button>
+      <button>Haikei for blog posts</button>
+      <button>Haikei for social media</button>
+    </div>
+  );
+};
+
+const TabContent = (props: any) => {
+  return (
     <div className="lg:flex hidden justify-between mb-24">
-      <div className="btn-tab-holder">
-        <button>Haikei for UI Design</button>
-        <button>Haikei for slide decks</button>
-        <button>Haikei for blog posts</button>
-        <button>Haikei for social media</button>
-      </div>
       <div className="w-1/2 px-8">
         <h3>Haikei for UI Design</h3>
         <p className="text-left text-textlight">

@@ -81,6 +81,10 @@ article {
   }
 }
 
+button {
+  @apply text-white;
+}
+
 .col {
   @apply flex flex-col;
 }
@@ -122,4 +126,14 @@ article {
 
 .smallsec {
   @apply sm:w-11/12 lg:w-11/12 mdlg:w-3/6;
+}
+
+.btn-tab-holder {
+  button {
+    @apply text-textdarker text-xl text-left w-1/4 pr-12 pt-4 pb-8 mb-8 mx-4 border-b-4 border-b-dark3 transition-colors duration-150;
+
+    &:hover {
+      @apply text-textlight;
+    }
+  }
 }

@@ -2,29 +2,32 @@ import React from "react";
 
 const Tabs = (props: any) => {
   return (
-    <div className="btn-tab-holder w-full flex justify-between">
-      <button>
-        Haikei for <br /> UI Design
-      </button>
-      <button>
-        Haikei for <br /> slide decks
-      </button>
-      <button>
-        Haikei for <br /> blog posts
-      </button>
-      <button>
-        Haikei for <br /> social media
-      </button>
+    <div className="w-full col">
+      <div className="btn-tab-holder w-full flex justify-between">
+        <button className="active">
+          Haikei for <br /> UI Design
+        </button>
+        <button>
+          Haikei for <br /> slide decks
+        </button>
+        <button>
+          Haikei for <br /> blog posts
+        </button>
+        <button>
+          Haikei for <br /> social media
+        </button>
+      </div>
+      <TabContent />
     </div>
   );
 };
 
 const TabContent = (props: any) => {
   return (
-    <div className="lg:flex hidden justify-between mb-24">
-      <div className="w-1/2 px-8">
-        <h3>Haikei for UI Design</h3>
-        <p className="text-left text-textlight">
+    <div className="flex justify-between my-12 w-full pr-4">
+      <div className="w-1/2 text-left mr-8">
+        <h2>Haikei for UI Design</h2>
+        <p className="text-textlight">
           Whether you are designing login screens, banner backgrounds, product
           showcases, or just need some cool visuals for your marketing pages,
           Haikei has you covered. Select one of our generators, choose your
@@ -36,11 +39,8 @@ const TabContent = (props: any) => {
           <a className="underline">Layered waves</a>
         </p>
       </div>
-      <div className="w-1/2">
-        <img
-          src="https://haikei.app/use-case-ui-design.svg"
-          className="w-3/4"
-        />
+      <div className="w-1/2 flex items-center justify-end">
+        <img src="https://haikei.app/use-case-ui-design.svg" className="" />
       </div>
     </div>
   );

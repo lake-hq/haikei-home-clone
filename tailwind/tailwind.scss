@@ -130,10 +130,14 @@ button {
 
 .btn-tab-holder {
   button {
-    @apply text-textdarker text-xl text-left w-1/4 pr-12 pt-4 pb-8 mb-8 mx-4 border-b-4 border-b-dark3 transition-colors duration-150;
+    @apply text-textdarker text-xl text-left w-1/4 pr-12 pt-4 pb-8 mb-8 mr-4 border-b-4 border-b-dark3 transition-colors duration-150;
 
     &:hover {
       @apply text-textlight;
     }
+  }
+
+  .active {
+    @apply text-white border-primaryPurple;
   }
 }

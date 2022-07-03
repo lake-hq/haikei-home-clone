@@ -91,6 +91,24 @@ const HomePage = () => {
             wait to see what you create with Haikei.
           </p>
         </article>
+        <div className="resprow children-1by3">
+          <div className="col children-p-sm">
+            <img
+              src="https://haikei.app/_next/static/images/pastel-style-3-c59ea6cc12770c59040792519ae2b9c4.png"
+              alt=""
+            />
+            <img
+              src="https://haikei.app/_next/static/images/album-cover-aac34cc7c20b657da64b14b6f0623b46.png"
+              alt=""
+            />
+            <img
+              src="https://haikei.app/_next/static/images/pastel-style-4-77e2b42d38e882ffc45f5c1ba94f3238.png"
+              alt=""
+            />
+          </div>
+          <div className="col"></div>
+          <div className="col"></div>
+        </div>
       </section>
     </div>
   );

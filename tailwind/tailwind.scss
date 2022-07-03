@@ -141,3 +141,15 @@ button {
     @apply text-white border-primaryPurple;
   }
 }
+
+.children-1by3 {
+  div {
+    @apply w-1/3;
+  }
+}
+
+.children-p-sm {
+  img {
+    @apply mx-2 my-4;
+  }
+}

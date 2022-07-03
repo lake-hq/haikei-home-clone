@@ -558,14 +558,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .mt-20 {
@@ -580,24 +580,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mr-0 {
-  margin-right: 0px;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.mr-9 {
-  margin-right: 2.25rem;
-}
-
 .mr-8 {
   margin-right: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .flex {
@@ -632,14 +620,6 @@ video {
   width: 50%;
 }
 
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -666,10 +646,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .overflow-x-hidden {

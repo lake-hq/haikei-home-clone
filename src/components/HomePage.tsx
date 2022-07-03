@@ -38,7 +38,7 @@ const HomePage = () => {
           />
         </div>
       </section>
-      <section className="col items-start mt-20">
+      <section className="col items-start">
         <article className="col items-start mb-0 pb-0">
           <h2 className="text-left">
             Discover + create unlimited <br /> visuals for your designs
@@ -71,7 +71,7 @@ const HomePage = () => {
           </div>
         </article>
       </section>
-      <section className="pt-0">
+      <section className="mb-12">
         <article className="smallsec pb-4">
           <h2>Use cases</h2>
           <p>
@@ -83,12 +83,14 @@ const HomePage = () => {
         <Tabs />
       </section>
       <section>
-        <h2>Get Inspired!</h2>
-        <p>
-          Use Haikei to create social media banners and posts, web pages, visual
-          assets for your apps, product showcases and more! We can't wait to see
-          what you create with Haikei.
-        </p>
+        <article className="smallsec">
+          <h2>Get Inspired!</h2>
+          <p className="text-textlight">
+            Use Haikei to create social media banners and posts, web pages,
+            visual assets for your apps, product showcases and more! We can't
+            wait to see what you create with Haikei.
+          </p>
+        </article>
       </section>
     </div>
   );

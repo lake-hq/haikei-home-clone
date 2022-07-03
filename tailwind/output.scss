@@ -627,6 +627,10 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -1094,8 +1098,8 @@ button {
 
 .children-p-sm {
   img {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   img {
     margin-top: 1rem;

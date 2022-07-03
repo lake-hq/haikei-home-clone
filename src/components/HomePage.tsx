@@ -106,8 +106,21 @@ const HomePage = () => {
               alt=""
             />
           </div>
-          <div className="col"></div>
-          <div className="col"></div>
+          <div className="col children-p-sm">
+            <img
+              src="https://haikei.app/_next/static/images/spotify-style-96565994b67a8eae7400dd10bc182b77.png"
+              alt=""
+            />
+            <img
+              src="https://haikei.app/_next/static/images/photo-event-d44056114e68cc07eb2baee96c173dd9.png"
+              alt=""
+            />
+            <img
+              src="https://haikei.app/_next/static/images/website-mockup-160747a2364a06fb3373835d192ce623.png"
+              alt=""
+            />
+          </div>
+          <div className="col children-p-sm"></div>
         </div>
       </section>
     </div>

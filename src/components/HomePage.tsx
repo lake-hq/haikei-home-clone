@@ -82,6 +82,14 @@ const HomePage = () => {
         </article>
         <Tabs />
       </section>
+      <section>
+        <h2>Get Inspired!</h2>
+        <p>
+          Use Haikei to create social media banners and posts, web pages, visual
+          assets for your apps, product showcases and more! We can't wait to see
+          what you create with Haikei.
+        </p>
+      </section>
     </div>
   );
 };

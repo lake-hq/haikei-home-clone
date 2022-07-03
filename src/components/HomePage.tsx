@@ -120,7 +120,20 @@ const HomePage = () => {
               alt=""
             />
           </div>
-          <div className="col children-p-sm"></div>
+          <div className="col children-p-sm">
+            <img
+              src="https://haikei.app/_next/static/images/neon-style-3-8aa2f24a5460c6e9d8322942eef02431.png"
+              alt=""
+            />
+            <img
+              src="https://haikei.app/_next/static/images/album-cover-2-b04e5a8192533c08d32a6ec2829c4e60.png"
+              alt=""
+            />
+            <img
+              src="https://haikei.app/_next/static/images/macarons-2-bef14d5ae795293a1d4b8d633bdf928e.png"
+              alt=""
+            />
+          </div>
         </div>
       </section>
     </div>

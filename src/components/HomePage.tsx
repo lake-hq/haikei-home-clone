@@ -91,7 +91,7 @@ const HomePage = () => {
             wait to see what you create with Haikei.
           </p>
         </article>
-        <div className="resprow items-start children-1by3">
+        <div className="resprow items-start children-1by3 mb-16">
           <div className="col children-p-sm">
             <img
               src="https://haikei.app/_next/static/images/pastel-style-3-c59ea6cc12770c59040792519ae2b9c4.png"
@@ -135,6 +135,15 @@ const HomePage = () => {
             />
           </div>
         </div>
+        <Button text="Start designing for free" />
+      </section>
+      <section>
+        <article className="smallsec">
+          <h2>Newsletter</h2>
+          <p>
+            Sign up to stay in the loop with the latest features and generators!
+          </p>
+        </article>
       </section>
     </div>
   );

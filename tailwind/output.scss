@@ -579,6 +579,18 @@ video {
   margin-right: 2rem;
 }
 
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -619,20 +631,12 @@ video {
   flex-direction: row-reverse;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
 .items-start {
   align-items: flex-start;
 }
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -729,10 +733,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.align-baseline {
-  vertical-align: baseline;
 }
 
 .text-sm {

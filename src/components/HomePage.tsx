@@ -91,7 +91,7 @@ const HomePage = () => {
             wait to see what you create with Haikei.
           </p>
         </article>
-        <div className="resprow items-start children-1by3 mb-16">
+        <div className="resprow items-start mb-16">
           <div className="col children-p-sm">
             <img
               src="https://haikei.app/_next/static/images/pastel-style-3-c59ea6cc12770c59040792519ae2b9c4.png"

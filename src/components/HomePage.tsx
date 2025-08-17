@@ -31,7 +31,7 @@ const HomePage = () => {
         <div className="col items-center rounded-full">
           <video
             className="rounded-xl w-full"
-            src="/src/images/intro-video.mp4"
+            src="https://haikei.app/intro-video.mp4"
             autoPlay
             loop
             muted

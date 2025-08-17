@@ -3,7 +3,7 @@ import React from "react";
 const Tabs = (props: any) => {
   return (
     <div className="col">
-      <div className="btn-tab-holder w-full flex justify-between hidden md:inline">
+      <div className="btn-tab-holder w-full justify-between hidden md:flex">
         <button className="active">
           Haikei for <br /> UI Design
         </button>
